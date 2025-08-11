@@ -18,8 +18,8 @@ public class Test1 {
 
 		}
 */
-	//Default Access Modifier:Only Access Within package
-	 int x=100;
+	//Default Access Modifier:Only Access Within class or package level
+/*	 int x=100;
 	
 	 void m1()
 	{
@@ -27,8 +27,18 @@ public class Test1 {
 		
 	}
 	  
-
+*/
 	
+	// protector Access Modifier:Access outside of package through inheritance
+	
+  protected int x=100;
+  protected  void m1()
+	{
+		System.out.println("This is m1 method");
+		
+	}
+  
+  //public-directly access all variables & methods everywhere
 	
 
 }
